@@ -36,5 +36,7 @@ exampleArray = [1,2,3,4];
 // });
 // const triple = ()
 // console.log(triple);
-const triple = (feedArray) => {feedArray.map(num => num*3)}
+
+const triple = (feedArray) => feedArray.map(num => num*3)
 console.log(triple(exampleArray))
+//console.log(exampleArray.map(num => num*3))
